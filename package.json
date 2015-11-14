@@ -1,0 +1,13 @@
+{
+  "name": "demo",
+  "private": true,
+  "version": "0.0.1",
+  "description": "A demo project",
+  "repository": "",
+  "license": "",
+  "devDependencies": {
+  },
+  "scripts": {
+    
+  }
+}

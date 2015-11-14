@@ -1,0 +1,200 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+.hline{
+	border-top: 1px solid #ee6e73;
+    padding: 5px;
+}
+
+.hprog{
+	border-top: 1px solid #ee6e73;
+}
+
+.mgbottom10{
+	margin-bottom: 10px;
+}
+
+.mgleft10{
+  margin-left: 10px;
+}
+
+.mgright10{
+  margin-right: 10px;
+}
+
+.font12 {
+	font-size: 1.2em;
+}
+
+.txtCentre {
+	text-align: center;
+}
+
+img {
+	max-width: none;
+    width: 100%;
+    height: auto;
+}
+
+section h2 {
+    font-size: 2.5em;
+    font-weight: 300;
+    margin: 0;
+    text-transform: uppercase;
+}
+.overlay { 
+  	position:absolute;
+	z-index:12;
+  	display: block;
+	top: 25%;
+	width: 100%;
+	z-index: 999;
+	padding-left: 5%;
+}
+.overlay h2 {
+	background: none repeat scroll 0 0 #fff;
+    color: rgb(0, 30, 34);
+	display: inline-block;
+	padding: 0.3125em 0.625em;
+	font-size: 2em;
+}
+.overlay p {
+	background: none repeat scroll 0 0 rgba(0, 30, 34, 0.85);
+	color: #fff;
+	display: inline-block;
+	font-size: 1.2em;
+	padding: 0.625em 0.8em;
+	margin: 0;
+}
+#carousel {
+	background: #fff;
+}
+#carousel img {
+	height: auto;
+	max-height: 900px; 
+}
+#first-block, #second-block, #third-block, #fourth-block {
+	text-align: center;
+	padding: 4.5em 0;
+}
+#first-block {
+	background: #fff;
+}
+
+.block-item{
+	width: 25%;
+	display: inline-block;
+}
+
+footer {
+  background: none repeat scroll 0 0 rgba(0, 30, 34, 0.85) !important;
+}
+
+header > nav {
+  background: none repeat scroll 0 0 rgba(0, 30, 34, 0.85);
+}
+
+header > nav .brand-logo{
+  margin-left: 1.1rem;
+}
+
+header > nav .nav-wrapper i {
+  font-size: 1.25rem;
+  line-height: 35px;
+}
+
+.btnStarted{
+	position: fixed;
+    z-index: 12;
+    bottom: 15%;
+    right: 5%;
+}
+
+.progress {
+  text-align: center;
+  height: auto;
+  background-color: transparent;
+}
+.progress .circle,
+.progress .bar {
+  display: inline-block;
+  background: #fff;
+  width: 40px; height: 40px;
+  border-radius: 40px;
+  border: 1px solid #d5d5da;
+}
+.progress .bar {
+  position: relative;
+  width: 80px;
+  height: 6px;
+  top: 6px;
+  margin-left: -5px;
+  margin-right: -5px;
+  border-left: none;
+  border-right: none;
+  border-radius: 0;
+}
+.progress .circle {
+	vertical-align: top;
+}
+.progress .circle .label {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  line-height: 32px;
+  border-radius: 32px;
+  margin-top: 3px;
+  color: #b5b5ba;
+  font-size: 17px;
+}
+
+/* Done / Active */
+.progress .bar.done,
+.progress .circle.done {
+  background: antiquewhite;
+}
+.progress .bar.active {
+  background: linear-gradient(to right, #EEE 40%, #FFF 60%);
+}
+.progress .circle.done .label {
+  color: #FFF;
+  background: white;
+  box-shadow: inset 0 0 2px rgba(0,0,0,.2);
+}
+.progress .circle.done .label i {
+ 	color: #ee6e73;
+}
+.progress .circle.active .label {
+  color: #FFF;
+  background: #ee6e73;
+  box-shadow: inset 0 0 2px rgba(0,0,0,.2);
+}
+.progress .circle.active .label i {
+  color: white;
+}
+.modal-block{
+
+}
+.modal-block-item {
+	display: inline-block;
+    width: auto;
+}
+.modal-block-item-search {
+    margin-left: 33.33%;
+}
+.like {
+  margin: 0px 10px 0px 0px !important;
+  padding: 0;
+}
